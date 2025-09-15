@@ -1,9 +1,9 @@
 name: Generate Snake
 
 on:
-  schedule: # every 12 hours
+  schedule: # Runs every 12 hours
     - cron: "0 */12 * * *"
-  workflow_dispatch:
+  workflow_dispatch: # Manual trigger
 
 permissions:
   contents: write
@@ -20,8 +20,8 @@ jobs:
         with:
           github_user_name: usama12116
           outputs: |
-            dist/github-contribution-grid-snake-dark.gif?color_snake=00FF00&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
-            dist/github-contribution-grid-snake-dark.svg?color_snake=00FF00&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+            dist/snake-dark.gif?color_snake=00FF00&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+            dist/snake-dark.svg?color_snake=00FF00&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
