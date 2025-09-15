@@ -15,12 +15,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate snake animation (dark mode)
+      - name: Generate snake animation (dark mode SVG)
         uses: Platane/snk@v3
         with:
           github_user_name: usama12116
           outputs: |
-            dist/snake-dark.gif?color_snake=00FF00&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
             dist/snake-dark.svg?color_snake=00FF00&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
       - name: Push snake to output branch
