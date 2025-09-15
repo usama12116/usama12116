@@ -50,9 +50,8 @@
 
 ---
 
-## 🐍 Watch My Contributions Snake  
-
 ![Snake animation](https://raw.githubusercontent.com/usama12116/usama12116/output/snake-dark.svg)
+
 
 
 
