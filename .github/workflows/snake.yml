@@ -1,9 +1,9 @@
 name: Generate Snake
 
 on:
-  schedule: # Runs every 12 hours
+  schedule:
     - cron: "0 */12 * * *"
-  workflow_dispatch: # Manual trigger
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -15,12 +15,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate snake animation (dark mode SVG)
+      - name: Generate snake animation (purple snake, dark mode)
         uses: Platane/snk@v3
         with:
           github_user_name: usama12116
           outputs: |
-            dist/snake-dark.svg?color_snake=00FF00&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+            dist/snake-dark.svg?color_snake=#A020F0&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
