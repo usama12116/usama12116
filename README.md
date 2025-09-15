@@ -52,7 +52,7 @@
 
 ## 🐍 Watch My Contributions Snake  
 
-![Snake animation](https://raw.githubusercontent.com/usama12116/usama12116/output/github-contribution-grid-snake-dark.gif)
+![Snake animation](https://raw.githubusercontent.com/usama12116/usama12116/output/snake-dark.svg)
 
 
 
