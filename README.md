@@ -52,6 +52,7 @@
 
 ## 🐍 Watch My Contributions Snake  
 
-![snake gif](https://github.com/usama12116/usama12116/blob/output/github-contribution-grid-snake.gif)
+![snake gif](https://raw.githubusercontent.com/usama12116/usama12116/output/github-contribution-grid-snake.gif)
+
 
 </div>
